@@ -1,0 +1,19 @@
+[
+  {
+    "path": "posts/welcome/",
+    "title": "Welcome to Batool's Blabber",
+    "description": "Welcome to our new blog, Batool's Blabber. We hope you enjoy \nreading what we have to say!",
+    "author": [
+      {
+        "name": "Batool Almarzouq",
+        "url": "https://batoolmm.netlify.app/"
+      }
+    ],
+    "date": "2020-12-26",
+    "categories": [],
+    "contents": "\n\n\n\nThis is noted 1\n\nThis wes inspied by maelle\n\nit was ment to builds on other websites↩︎\n",
+    "preview": "posts/welcome/welcome_files/figure-html5/unnamed-chunk-1-1.png",
+    "last_modified": "2020-12-27T19:14:26+03:00",
+    "input_file": {}
+  }
+]

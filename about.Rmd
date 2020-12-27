@@ -1,0 +1,12 @@
+---
+title: "About this blog"
+description: |
+  Some additional details about the blog
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Here, I share practical tips for computing with R and using R in data analysis and visualization.
+For more information about me, visit my persinal website.
