@@ -9,4 +9,4 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 On this blog, I share practical tips for computing with R and using R in data analysis and visualization.
-For more information about me, visit (my persinal website)[https://batool-almarzouq.netlify.app].
+For more information about me, visit [my persinal website](https://batool-almarzouq.netlify.app).

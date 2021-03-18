@@ -5,15 +5,15 @@
       "title": "About this blog",
       "description": "Some additional details about the blog",
       "author": [],
-      "contents": "\nHere, I share practical tips for computing with R and using R in data analysis and visualization. For more information about me, visit my persinal website.\n\n\n\n",
-      "last_modified": "2020-12-27T19:15:11+03:00"
+      "contents": "\nOn this blog, I share practical tips for computing with R and using R in data analysis and visualization. For more information about me, visit (my persinal website)[https://batool-almarzouq.netlify.app].\n\n\n\n",
+      "last_modified": "2021-03-18T19:24:47+03:00"
     },
     {
       "path": "index.html",
       "title": "My Blog",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2020-12-27T19:15:12+03:00"
+      "last_modified": "2021-03-18T19:20:39+03:00"
     }
   ],
   "collections": ["posts/posts.json"]
