@@ -1,14 +1,13 @@
 ---
-title: "Welcome to Batool's Blabber"
+title: "Make Your Computational Analysis Citable"
 description: |
-  Welcome to our new blog, Batool's Blabber. We hope you enjoy 
-  reading what we have to say!
+  This post introduces the steps needed by academic and non-acadmics to make their computational analysis citable regardless of being published in journals. 
 author:
   - name: Batool Almarzouq 
     url:  https://batoolmm.netlify.app/
     affiliation: The University of Liverpool
     affiliation_url: https://www.liverpool.ac.uk/
-date: 12-26-2020
+date: 3-18-2021
 output:
   distill::distill_article:
     self_contained: false
@@ -20,6 +19,10 @@ knitr::opts_chunk$set(echo = FALSE)
 # https://rstudio.github.io/distill/blog.html
 ```
 
+- Reproducibility 
+- License 
+- Zenodo
+- Publishing throughout the research cycle - Open Science
 
 ```{r}
 plot(1:10)
@@ -27,12 +30,12 @@ plot(1:10)
 This is noted [^key]
 
 <aside>
-This wes inspied by maelle
+This will not just improve reproducibility but also collaboration and transparancy. 
 </aside>
 
 
 
-[^key]: it was ment to builds on other websites 
+[^key]: it was meant to builds on other websites 
 
 
 

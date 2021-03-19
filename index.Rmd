@@ -1,5 +1,5 @@
 ---
-title: "My Blog"
+title: "Batool's Blabber"
 site: distill::distill_website
 listing: posts
 ---

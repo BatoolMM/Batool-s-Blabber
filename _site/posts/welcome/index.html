@@ -20,19 +20,18 @@
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css" data-origin="pandoc">
-code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
-code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; position: relative; }
 div.sourceCode { margin: 1em 0; }
 pre.sourceCode { margin: 0; }
 @media screen {
 div.sourceCode { overflow: auto; }
 }
 @media print {
-code.sourceCode { white-space: pre-wrap; }
-code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -52,7 +51,7 @@ pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-le
 div.sourceCode
   {   }
 @media screen {
-code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
@@ -86,38 +85,38 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-<title>Batool's Blabber: Welcome to Batool's Blabber</title>
+<title>Batool's Blabber: Make Your Computational Analysis Citable</title>
 
-<meta property="description" itemprop="description" content="Welcome to our new blog, Batool&#39;s Blabber. We hope you enjoy &#10;reading what we have to say!"/>
+<meta property="description" itemprop="description" content="This post introduces the steps needed by academic and non-acadmics to make their computational analysis citable regardless of being published in journals."/>
 
 
 <!--  https://schema.org/Article -->
-<meta property="article:published" itemprop="datePublished" content="2020-12-26"/>
-<meta property="article:created" itemprop="dateCreated" content="2020-12-26"/>
+<meta property="article:published" itemprop="datePublished" content="2021-03-18"/>
+<meta property="article:created" itemprop="dateCreated" content="2021-03-18"/>
 <meta name="article:author" content="Batool Almarzouq"/>
 
 <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-<meta property="og:title" content="Batool&#39;s Blabber: Welcome to Batool&#39;s Blabber"/>
+<meta property="og:title" content="Batool&#39;s Blabber: Make Your Computational Analysis Citable"/>
 <meta property="og:type" content="article"/>
-<meta property="og:description" content="Welcome to our new blog, Batool&#39;s Blabber. We hope you enjoy &#10;reading what we have to say!"/>
+<meta property="og:description" content="This post introduces the steps needed by academic and non-acadmics to make their computational analysis citable regardless of being published in journals."/>
 <meta property="og:locale" content="en_US"/>
 <meta property="og:site_name" content="Batool&#39;s Blabber"/>
 
 <!--  https://dev.twitter.com/cards/types/summary -->
 <meta property="twitter:card" content="summary"/>
-<meta property="twitter:title" content="Batool&#39;s Blabber: Welcome to Batool&#39;s Blabber"/>
-<meta property="twitter:description" content="Welcome to our new blog, Batool&#39;s Blabber. We hope you enjoy &#10;reading what we have to say!"/>
+<meta property="twitter:title" content="Batool&#39;s Blabber: Make Your Computational Analysis Citable"/>
+<meta property="twitter:description" content="This post introduces the steps needed by academic and non-acadmics to make their computational analysis citable regardless of being published in journals."/>
 
 <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
 <script type="text/json" id="radix-rmarkdown-metadata">
-{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Welcome to Batool's Blabber"]},{"type":"character","attributes":{},"value":["Welcome to our new blog, Batool's Blabber. We hope you enjoy \nreading what we have to say!"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation","affiliation_url"]}},"value":[{"type":"character","attributes":{},"value":["Batool Almarzouq"]},{"type":"character","attributes":{},"value":["https://batoolmm.netlify.app/"]},{"type":"character","attributes":{},"value":["The University of Liverpool"]},{"type":"character","attributes":{},"value":["https://www.liverpool.ac.uk/"]}]}]},{"type":"character","attributes":{},"value":["12-26-2020"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Make Your Computational Analysis Citable"]},{"type":"character","attributes":{},"value":["This post introduces the steps needed by academic and non-acadmics to make their computational analysis citable regardless of being published in journals."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation","affiliation_url"]}},"value":[{"type":"character","attributes":{},"value":["Batool Almarzouq"]},{"type":"character","attributes":{},"value":["https://batoolmm.netlify.app/"]},{"type":"character","attributes":{},"value":["The University of Liverpool"]},{"type":"character","attributes":{},"value":["https://www.liverpool.ac.uk/"]}]}]},{"type":"character","attributes":{},"value":["3-18-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
 </script>
 <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["welcome_files/anchor-4.2.2/anchor.min.js","welcome_files/bowser-1.9.3/bowser.min.js","welcome_files/distill-2.2.21/template.v2.js","welcome_files/figure-html5/unnamed-chunk-1-1.png","welcome_files/jquery-1.11.3/jquery.min.js","welcome_files/webcomponents-2.0.0/webcomponents.js"]}
+  {"type":"character","attributes":{},"value":["welcome_files/anchor-4.2.2/anchor.min.js","welcome_files/bowser-1.9.3/bowser.min.js","welcome_files/distill-2.2.21/template.v2.js","welcome_files/figure-html5/unnamed-chunk-1-1.png","welcome_files/header-attrs-2.6/header-attrs.js","welcome_files/jquery-1.11.3/jquery.min.js","welcome_files/popper-2.6.0/popper.min.js","welcome_files/tippy-6.2.7/tippy-bundle.umd.min.js","welcome_files/tippy-6.2.7/tippy-light-border.css","welcome_files/tippy-6.2.7/tippy.css","welcome_files/tippy-6.2.7/tippy.umd.min.js","welcome_files/webcomponents-2.0.0/webcomponents.js"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
 <meta name="distill:offset" content="../.."/>
@@ -2041,7 +2040,12 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 
 <!--/radix_placeholder_distill-->
+  <script src="../../site_libs/header-attrs-2.6/header-attrs.js"></script>
   <script src="../../site_libs/jquery-1.11.3/jquery.min.js"></script>
+  <script src="../../site_libs/popper-2.6.0/popper.min.js"></script>
+  <link href="../../site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
+  <link href="../../site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
+  <script src="../../site_libs/tippy-6.2.7/tippy.umd.min.js"></script>
   <script src="../../site_libs/anchor-4.2.2/anchor.min.js"></script>
   <script src="../../site_libs/bowser-1.9.3/bowser.min.js"></script>
   <script src="../../site_libs/webcomponents-2.0.0/webcomponents.js"></script>
@@ -2057,7 +2061,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Welcome to Batool's Blabber","description":"Welcome to our new blog, Batool's Blabber. We hope you enjoy \nreading what we have to say!","authors":[{"author":"Batool Almarzouq","authorURL":"https://batoolmm.netlify.app/","affiliation":"The University of Liverpool","affiliationURL":"https://www.liverpool.ac.uk/","orcidID":""}],"publishedDate":"2020-12-26T00:00:00.000+00:00","citationText":"Almarzouq, 2020"}
+{"title":"Make Your Computational Analysis Citable","description":"This post introduces the steps needed by academic and non-acadmics to make their computational analysis citable regardless of being published in journals.","authors":[{"author":"Batool Almarzouq","authorURL":"https://batoolmm.netlify.app/","affiliation":"The University of Liverpool","affiliationURL":"https://www.liverpool.ac.uk/","orcidID":""}],"publishedDate":"2021-03-18T00:00:00.000+00:00","citationText":"Almarzouq, 2021"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2092,31 +2096,37 @@ document.addEventListener('DOMContentLoaded', function() {
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Welcome to Batool’s Blabber</h1>
+<h1>Make Your Computational Analysis Citable</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Welcome to our new blog, Batool’s Blabber. We hope you enjoy reading what we have to say!</p></p>
+<p><p>This post introduces the steps needed by academic and non-acadmics to make their computational analysis citable regardless of being published in journals.</p></p>
 </div>
 
 <div class="d-byline">
   Batool Almarzouq <a href="https://batoolmm.netlify.app/" class="uri">https://batoolmm.netlify.app/</a> (The University of Liverpool)<a href="https://www.liverpool.ac.uk/" class="uri">https://www.liverpool.ac.uk/</a>
   
-<br/>12-26-2020
+<br/>3-18-2021
 </div>
 
 <div class="d-article">
+<ul>
+<li>Reproducibility</li>
+<li>License</li>
+<li>Zenodo</li>
+<li>Publishing throughout the research cycle - Open Science</li>
+</ul>
 <div class="layout-chunk" data-layout="l-body">
 <p><img src="welcome_files/figure-html5/unnamed-chunk-1-1.png" width="624" /></p>
 </div>
 <p>This is noted <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
 <aside>
-This wes inspied by maelle
+This will not just improve reproducibility but also collaboration and transparancy.
 </aside>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <section class="footnotes" role="doc-endnotes">
 <hr />
 <ol>
-<li id="fn1" role="doc-endnote"><p>it was ment to builds on other websites<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1" role="doc-endnote"><p>it was meant to builds on other websites<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
 <!--radix_placeholder_article_footer-->

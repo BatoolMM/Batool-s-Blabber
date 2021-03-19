@@ -1,19 +1,19 @@
 [
   {
     "path": "posts/welcome/",
-    "title": "Welcome to Batool's Blabber",
-    "description": "Welcome to our new blog, Batool's Blabber. We hope you enjoy \nreading what we have to say!",
+    "title": "Make Your Computational Analysis Citable",
+    "description": "This post introduces the steps needed by academic and non-acadmics to make their computational analysis citable regardless of being published in journals.",
     "author": [
       {
         "name": "Batool Almarzouq",
         "url": "https://batoolmm.netlify.app/"
       }
     ],
-    "date": "2020-12-26",
+    "date": "2021-03-18",
     "categories": [],
-    "contents": "\n\n\n\nThis is noted 1\n\nThis wes inspied by maelle\n\nit was ment to builds on other websites↩︎\n",
+    "contents": "\nReproducibility\nLicense\nZenodo\nPublishing throughout the research cycle - Open Science\n\n\n\nThis is noted 1\n\nThis will not just improve reproducibility but also collaboration and transparancy.\n\nit was meant to builds on other websites↩︎\n",
     "preview": "posts/welcome/welcome_files/figure-html5/unnamed-chunk-1-1.png",
-    "last_modified": "2021-03-18T19:20:39+03:00",
-    "input_file": {}
+    "last_modified": "2021-03-19T12:57:35+03:00",
+    "input_file": "welcome.utf8.md"
   }
 ]
