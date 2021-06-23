@@ -1,0 +1,34 @@
+---
+title: "Make Your Computational Analysis Citable"
+description: |
+  A short description of the post.
+author:
+  - name: Batool Almarzouq
+    url: https://batoolmm.netlify.app/
+date: 06-23-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+- Reproducibility 
+- License 
+- Zenodo
+- Publishing throughout the research cycle - Open Science
+
+```{r}
+plot(1:10)
+```
+This is noted [^key]
+
+<aside>
+This will not just improve reproducibility but also collaboration and transparancy. 
+</aside>
+
+
+
+[^key]: it was meant to builds on other websites 
+
+
+
