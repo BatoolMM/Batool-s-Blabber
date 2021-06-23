@@ -1,10 +1,12 @@
 ---
-title: "Make Your Computational Analysis Citable"
+title: "Make Your Computational Analysis Citable 2"
 description: |
-  A short description of the post.
+  This post introduces the steps needed by academic and non-acadmics to make their computational analysis citable regardless of being published in journals.
 author:
-  - name: Batool Almarzouq
-    url: https://batoolmm.netlify.app/
+  - name: Batool Almarzouq 
+    url:  https://batoolmm.netlify.app/
+    affiliation: The University of Liverpool
+    affiliation_url: https://www.liverpool.ac.uk/
 date: 06-23-2021
 output:
   distill::distill_article:

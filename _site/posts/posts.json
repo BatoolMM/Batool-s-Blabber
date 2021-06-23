@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2021-06-23-make-your-computational-analysis-citable/",
+    "title": "Make Your Computational Analysis Citable 2",
+    "description": "This post introduces the steps needed by academic and non-acadmics to make their computational analysis citable regardless of being published in journals.",
+    "author": [
+      {
+        "name": "Batool Almarzouq",
+        "url": "https://batoolmm.netlify.app/"
+      }
+    ],
+    "date": "2021-06-23",
+    "categories": [],
+    "contents": "\nReproducibility\nLicense\nZenodo\nPublishing throughout the research cycle - Open Science\n\n\nplot(1:10)\n\n\n\n\nThis is noted 1\n\nThis will not just improve reproducibility but also collaboration and transparancy.\n\nit was meant to builds on other websites↩︎\n",
+    "preview": "posts/2021-06-23-make-your-computational-analysis-citable/make-your-computational-analysis-citable_files/figure-html5/unnamed-chunk-1-1.png",
+    "last_modified": "2021-06-23T22:41:54+03:00",
+    "input_file": "make-your-computational-analysis-citable.utf8.md"
+  },
+  {
     "path": "posts/welcome/",
     "title": "Make Your Computational Analysis Citable",
     "description": "This post introduces the steps needed by academic and non-acadmics to make their computational analysis citable regardless of being published in journals.",
