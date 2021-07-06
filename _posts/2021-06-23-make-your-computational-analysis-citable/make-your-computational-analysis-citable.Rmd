@@ -13,11 +13,17 @@ output:
     self_contained: false
 ---
 
+Although there are overwhelming resources about licencing and citation for R software packages, there's less attention paid to making non-package (data science) code in R citable. Academics and researchers who want to embrace Open Science practices are mostly unaware of how to make their R code citable before publishing in academic journals and what kind of licence they may use to protect the intellectual property of their work. 
+
+Books and published journal articles have always been supplemented with DOIs (digital object identifiers), a key element in the process of research and academic discourse but there's less attention paid to unpublished computational analysis, which is usually abandoned in GitHub (or in someone's drive).
+
+As a researcher, we often spend long time collecting data  
 
 - Reproducibility 
 - License 
 - Zenodo
 - Publishing throughout the research cycle - Open Science
+
 
 ```{r}
 plot(1:10)
