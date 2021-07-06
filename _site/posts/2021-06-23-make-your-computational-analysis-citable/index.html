@@ -82,7 +82,7 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
   <!--radix_placeholder_meta_tags-->
 <title>Batool's Blabber: Make Your Computational Analysis Citable</title>
 
-<meta property="description" itemprop="description" content="This post introduces the steps needed by academic and non-academics to make their computational analysis citable."/>
+<meta property="description" itemprop="description" content="This post introduces the steps needed by academic and non-academics to make their computational analysis in R citable."/>
 
 
 <!--  https://schema.org/Article -->
@@ -93,20 +93,20 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
 <meta property="og:title" content="Batool&#39;s Blabber: Make Your Computational Analysis Citable"/>
 <meta property="og:type" content="article"/>
-<meta property="og:description" content="This post introduces the steps needed by academic and non-academics to make their computational analysis citable."/>
+<meta property="og:description" content="This post introduces the steps needed by academic and non-academics to make their computational analysis in R citable."/>
 <meta property="og:locale" content="en_US"/>
 <meta property="og:site_name" content="Batool&#39;s Blabber"/>
 
 <!--  https://dev.twitter.com/cards/types/summary -->
 <meta property="twitter:card" content="summary"/>
 <meta property="twitter:title" content="Batool&#39;s Blabber: Make Your Computational Analysis Citable"/>
-<meta property="twitter:description" content="This post introduces the steps needed by academic and non-academics to make their computational analysis citable."/>
+<meta property="twitter:description" content="This post introduces the steps needed by academic and non-academics to make their computational analysis in R citable."/>
 
 <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
 <script type="text/json" id="radix-rmarkdown-metadata">
-{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","preview","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Make Your Computational Analysis Citable"]},{"type":"character","attributes":{},"value":["This post introduces the steps needed by academic and non-academics to make their computational analysis citable."]},{"type":"character","attributes":{},"value":["imgs/DOI.jpeg"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation","affiliation_url"]}},"value":[{"type":"character","attributes":{},"value":["Batool Almarzouq"]},{"type":"character","attributes":{},"value":["https://batoolmm.netlify.app/"]},{"type":"character","attributes":{},"value":["The University of Liverpool"]},{"type":"character","attributes":{},"value":["https://www.liverpool.ac.uk/"]}]}]},{"type":"character","attributes":{},"value":["3-18-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained","toc","highlight"]}},"value":[{"type":"logical","attributes":{},"value":[false]},{"type":"logical","attributes":{},"value":[true]},{"type":"character","attributes":{},"value":["haddock"]}]}]}]}
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","preview","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Make Your Computational Analysis Citable"]},{"type":"character","attributes":{},"value":["This post introduces the steps needed by academic and non-academics to make their computational analysis in R citable."]},{"type":"character","attributes":{},"value":["imgs/DOI.jpeg"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation","affiliation_url"]}},"value":[{"type":"character","attributes":{},"value":["Batool Almarzouq"]},{"type":"character","attributes":{},"value":["https://batoolmm.netlify.app/"]},{"type":"character","attributes":{},"value":["The University of Liverpool"]},{"type":"character","attributes":{},"value":["https://www.liverpool.ac.uk/"]}]}]},{"type":"character","attributes":{},"value":["3-18-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained","toc","highlight"]}},"value":[{"type":"logical","attributes":{},"value":[false]},{"type":"logical","attributes":{},"value":[true]},{"type":"character","attributes":{},"value":["haddock"]}]}]}]}
 </script>
 <!--/radix_placeholder_rmarkdown_metadata-->
   
@@ -2056,7 +2056,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Make Your Computational Analysis Citable","description":"This post introduces the steps needed by academic and non-academics to make their computational analysis citable.","authors":[{"author":"Batool Almarzouq","authorURL":"https://batoolmm.netlify.app/","affiliation":"The University of Liverpool","affiliationURL":"https://www.liverpool.ac.uk/","orcidID":""}],"publishedDate":"2021-03-18T00:00:00.000+00:00","citationText":"Almarzouq, 2021"}
+{"title":"Make Your Computational Analysis Citable","description":"This post introduces the steps needed by academic and non-academics to make their computational analysis in R citable.","authors":[{"author":"Batool Almarzouq","authorURL":"https://batoolmm.netlify.app/","affiliation":"The University of Liverpool","affiliationURL":"https://www.liverpool.ac.uk/","orcidID":""}],"publishedDate":"2021-03-18T00:00:00.000+00:00","citationText":"Almarzouq, 2021"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2094,7 +2094,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <h1>Make Your Computational Analysis Citable</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>This post introduces the steps needed by academic and non-academics to make their computational analysis citable.</p></p>
+<p><p>This post introduces the steps needed by academic and non-academics to make their computational analysis in R citable.</p></p>
 </div>
 
 <div class="d-byline">
@@ -2124,10 +2124,10 @@ document.addEventListener('DOMContentLoaded', function() {
 <p>Although there are overwhelming resources about licensing and citation for R software packages, there’s less attention paid to making non-package (data science) code in R citable. Academics and researchers who want to embrace Open Science practices are mostly unaware of how to make their R code citable before publishing in academic journals and what kind of license they may use to protect the intellectual property of their work.</p>
 <h2 id="why-make-our-computational-analysis-citable">Why make our computational analysis citable?</h2>
 <p>Books and published journal articles have always been supplemented with DOIs (digital object identifiers), a key element in the process of research and academic discourse but there’s less attention paid to unpublished computational analysis, which is usually abandoned in GitHub (or in someone’s else hard drive).</p>
-<p>As a researcher, we often spend long time planning and designing our project, collecting and processing data but we often can’t publish all the results and analysis if it deemed uninteresting to the journal reviewers.</p>
 <figure>
 <img src="imgs/data-cycle.jpeg" alt="The Turing Way project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.¶" /><figcaption aria-hidden="true">The Turing Way project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.¶</figcaption>
 </figure>
+<p>As a researcher, we often spend long time planning and designing our project, collecting and processing data but we often can’t publish all the results and analysis if it deemed uninteresting to the journal reviewers.</p>
 <aside>
 <p>Read More about how to apply open science practices in your data science projects from <em>The Turing Way</em> <a href="https://the-turing-way.netlify.app/">Book</a>.</p>
 </aside>
@@ -2141,10 +2141,10 @@ document.addEventListener('DOMContentLoaded', function() {
 </blockquote>
 <h2 id="what-is-a-doi">What is a DOI?</h2>
 <p>A digital object identifier (DOI) is a persistent identifier or a unique ID to permanently identify a data, a software, an article or document and link to it on the web. These DOI are designed so your DOI links don’t break when a website gets updated.</p>
-<p>DOIs are generated by publishing organizations or open-access repositories such as <a href="https://zenodo.org/">Zenodo</a>. Zenodo is a general-purpose open-access repository developed under the European OpenAIRE program and operated by CERN. The previous citation was produced by Zenodo. “Zenodo helps researchers receive credit by making the research results citable. Citation information is also passed to DataCite and onto the scholarly aggregators” <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p>
 <figure>
 <img src="imgs/DOI.jpeg" alt="The Turing Way project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.¶" /><figcaption aria-hidden="true">The Turing Way project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.¶</figcaption>
 </figure>
+<p>DOIs are generated by publishing organizations or open-access repositories such as <a href="https://zenodo.org/">Zenodo</a>. Zenodo is a general-purpose open-access repository developed under the European OpenAIRE program and operated by CERN. The previous citation was produced by Zenodo. “Zenodo helps researchers receive credit by making the research results citable. Citation information is also passed to DataCite and onto the scholarly aggregators” <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p>
 <h2 id="how-can-we-create-doi-for-our-r-code">How can we create DOI for our R code?</h2>
 <h3 id="create-a-license">1- Create a license</h3>
 <p>I can’t stress how important to create a license to any project you initiate. The license outline how other researchers can use your data or analysis. Without a license, the code is unusable by others, even if it has been publicly posted on GitHub. Adding a license to any R project is made extremely easy with <code>usethis</code> package. Most package developers are familiar with <code>usethis</code> package, which can also be extremely useful for non-package projects. You can add any license using a single line:</p>
