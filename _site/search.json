@@ -2,18 +2,18 @@
   "articles": [
     {
       "path": "about.html",
-      "title": "About this blog",
-      "description": "Some additional details about the blog",
+      "title": "About me!",
+      "description": "I'm Batool Almarzouq! ",
       "author": [],
       "contents": "\n\nI am a bioinformatician and computational biologist affiliated with the University of Liverpool in the UK and KAIMRC in Saudi Arabia. I completed my PhD in Cancer Biology from the University of Liverpool. I’m also an RWeekly member and a part of the R-Ladies Global committee, a worldwide organization to promote gender diversity in the R community. I love contributing to open-source and I’m a core contributor to The Turing Way, an open-source community-driven guide to reproducible, ethical and collaborative data science, as well as a certified Carpentry instructor.\nAs an advocate for Open Science and its role in improving scientific and economic outputs in the Middle east, I established an Open Science Community in Saudi Arabia (OSCSA). OSCSA aims to create significant value towards Saudi Arabia’s Vision 2030, which focus on enhancing knowledge and improving equal access to education in the Kingdom. It introduces Open Science practices to data scientists and provides a place where newcomers and experienced peers interact, inspire each other to embed open science practices and values in their workflows and provide feedback on policies, infrastructures and support services.\n\n\n\n",
-      "last_modified": "2021-07-06T18:26:10+03:00"
+      "last_modified": "2021-07-06T22:59:44+03:00"
     },
     {
       "path": "index.html",
       "title": "Batool's Blabber",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-07-06T15:47:37+03:00"
+      "last_modified": "2021-07-06T22:49:08+03:00"
     }
   ],
   "collections": ["posts/posts.json"]
