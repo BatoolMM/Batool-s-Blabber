@@ -18,4 +18,13 @@ navbar:
     - icon: fa fa-rss
       href: index.xml  
 output: distill::distill_article
-citations: true
+google_analytics: "UA-201438308-1"
+twitter:
+  site: "@batool664"
+  creator: "@batool664"
+rss:
+  full_content: true
+collections:
+  posts:
+      share: [twitter, linkedin]
+      citations: true
