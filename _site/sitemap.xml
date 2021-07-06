@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
+  <url>
+    <loc>https://batool-blabber.netlify.app/about.html</loc>
+    <lastmod>2021-07-06T22:58:47+03:00</lastmod>
+  </url>
+  <url>
+    <loc>https://batool-blabber.netlify.app/</loc>
+    <lastmod>2021-03-18T19:33:24+03:00</lastmod>
+  </url>
+  <url>
+    <loc>https://batool-blabber.netlify.app/posts/2021-06-23-make-your-computational-analysis-citable/</loc>
+    <lastmod>2021-07-07T01:24:51+03:00</lastmod>
+  </url>
+</urlset>

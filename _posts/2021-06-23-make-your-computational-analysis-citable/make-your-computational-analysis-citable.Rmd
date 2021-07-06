@@ -4,7 +4,6 @@ description: |
   This post introduces the steps needed by academic and non-academics to make their computational analysis in R citable.
 repository_url: |
   https://github.com/BatoolMM/Batool-s-Blabber/blob/master/_posts/2021-06-23-make-your-computational-analysis-citable/make-your-computational-analysis-citable.Rmd
-creative_commons: CC BY
 preview: imgs/DOI.jpeg
 twitter:
   site: "@batool664"
@@ -17,10 +16,12 @@ author:
 date: 3-18-2021
 output:
   distill::distill_article:
-    self_contained: false
     toc: true
     self_contained: false
     highlight: haddock
+draft: false
+creative_commons: CC BY
+
 ---
 
 ```{r setup, include=FALSE}
