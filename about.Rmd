@@ -7,5 +7,9 @@ description: |
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
-I'm a computational biologist and open science advocate. On this blog, I share practical tips for computing with R and using R in data analysis and visualization.
-For more information about me, visit [my persinal website](https://batool-almarzouq.netlify.app).
+
+I am is a bioinformatician and computational biologist affiliated with the University of Liverpool in the UK and KAIMRC in Saudi Arabia. I completed my PhD in Cancer Biology from the University of Liverpool. I'm an RWeekly member and a member of R-Ladies Global committee, a worldwide organization to promote gender diversity in the R community. I'ma also  a core contributor to The Turing Way, an open-source community-driven guide to reproducible, ethical and collaborative data science as well as certified Carpentry instructor. 
+
+As an advocate for Open Science and its role in improving scientific and economic outputs in the Middle east, I established an Open Science Community in Saudi Arabia (OSCSA). OSCSA aims to create significant value towards Saudi Arabia's Vision 2030, which focus on enhancing knowledge and improving equal access to education in the Kingdom. It introduces Open Science practices to data scientists and provides a place where newcomers and experienced peers interact, inspire each other to embed open science practices and values in their workflows and provide feedback on policies, infrastructures and support services.
+
+
