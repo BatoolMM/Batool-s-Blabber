@@ -28,11 +28,11 @@
 &lt;/aside&gt;
 &lt;p&gt;As a researcher, if I find an interesting analysis in a GitHub repository (which I always do), I can’t cite it as:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;From &lt;a href="https://github.com/BatoolMM/MetagenomicsAnalysis" class="uri"&gt;https://github.com/BatoolMM/MetagenomicsAnalysis&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;From github.com/BatoolMM/MetagenomicsAnalysis&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;This is because the repository is inconsistent changes, the URL is unstable, and there’s no metadata (e.g. author, date, …) associated with the repository. Therefore, it’s best practice to generate a DOI and attach a metadata plus a license to the repository to generate a citation similar to:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Batool Almarzouq. (2021, June). Metagenomic analysis to the soil in Saudi Arabia. Zenodo. &lt;a href="http://doi.org/10.5281/zenodo.4942110" class="uri"&gt;http://doi.org/10.5281/zenodo.4942110&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Batool Almarzouq. (2021, June). Metagenomic analysis to the soil in Saudi Arabia. Zenodo. doi.org/10.5281/zenodo.4942110&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id="what-is-a-doi"&gt;What is a DOI?&lt;/h2&gt;
 &lt;p&gt;A digital object identifier (DOI) is a persistent identifier or a unique ID to permanently identify a data, a software, an article or document and link to it on the web. These DOI are designed so your DOI links don’t break when a website gets updated.&lt;/p&gt;

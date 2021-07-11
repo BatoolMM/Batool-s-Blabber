@@ -49,11 +49,11 @@ Read More about how to apply open science practices in your data science project
 
 As a researcher, if I find an interesting analysis in a GitHub repository (which I always do), I can't cite it as:
 
-> From <https://github.com/BatoolMM/MetagenomicsAnalysis>
+> From github.com/BatoolMM/MetagenomicsAnalysis
 
 This is because the repository is inconsistent changes, the URL is unstable, and there's no metadata (e.g. author, date, ...) associated with the repository. Therefore, it's best practice to generate a DOI and attach a metadata plus a license to the repository to generate a citation similar to:
 
-> Batool Almarzouq. (2021, June). Metagenomic analysis to the soil in Saudi Arabia. Zenodo. <http://doi.org/10.5281/zenodo.4942110>
+> Batool Almarzouq. (2021, June). Metagenomic analysis to the soil in Saudi Arabia. Zenodo. doi.org/10.5281/zenodo.4942110
 
 ## What is a DOI?
 
